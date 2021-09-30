@@ -45,18 +45,6 @@
     "husky:precommit:test": "npm run test -- --watchAll=false",
     "husky:precommit:madge": "madge --circular --warning ./src"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "engines": {
     "node": "^16.10.0",
     "npm": "^7.24.0"
